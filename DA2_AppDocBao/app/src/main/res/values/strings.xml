@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DA2_AppDocBao</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_dantri">
+        Cơ quan của Bộ Lao động - Thương binh và Xã hội \n
+        Tổng biên tập: Phạm Tuấn Anh\n
+        Giấy phép hoạt động báo điện tử Dân trí số 411/GP - BTTTT Hà Nội,ngày 31-10-2023\n
+        Địa chỉ tòa soạn: Nhà 48, ngõ 2 Giảng Võ, Cát Linh, Đống Đa,Hà Nội\n
+        Điện thoại: 024-3736-6491. Hotline HN: 0973-567-567\n
+        Văn phòng đại diện miền Nam: 51 Võ Văn Tần,Phường Võ Thị Sáu,Quận 3, TPHCM\n
+        Hotline TPHCM: 0974-567-567\n
+        Email: info@dantri.com.vn
+    </string>
+
+
+</resources>

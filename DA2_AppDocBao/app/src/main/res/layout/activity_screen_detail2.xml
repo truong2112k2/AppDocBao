@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context="a_screen.ScreenDetail_2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="start|center"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                >
+                <ImageButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_sharewhite"
+                    >
+                </ImageButton>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    tools:ignore="InefficientWeight">
+
+                </View>
+                <ImageButton
+                    android:id="@+id/btnDelete"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:scaleType="fitXY"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/icon_delete"
+                    >
+                </ImageButton>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="Show title here"
+                />
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginStart="5dp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="Thứ hai, 24/06/2024 - 16:15"
+                android:textColor="#00168E"
+                tools:ignore="HardcodedText" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgShowImg"
+                android:layout_width="262dp"
+                android:layout_height="260dp"
+                android:src="@drawable/img"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:shapeAppearanceOverlay="@style/style_imageview"
+                android:scaleType="fitXY"
+                >
+            </com.google.android.material.imageview.ShapeableImageView>
+            <TextView
+                android:id="@+id/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/about_dantri"
+                >
+            </TextView>
+
+
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/black"
+                android:layout_gravity="center"
+                >
+            </View>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_host"
+                android:layout_marginStart="5dp"
+                >
+            </ImageView>
+            <TextView
+                android:id="@+id/txtInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:gravity="center|left"
+                android:layout_marginTop="5dp"
+
+                android:textColor="@color/black"
+                android:text="@string/about_dantri"
+                tools:ignore="RtlHardcoded">
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

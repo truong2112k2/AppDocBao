@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/icon_fragmentHome"
+        android:title="Trang Chủ"
+        android:icon="@drawable/home"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/icon_fragmentSaveNews"
+        android:title="Tin Đã Lưu"
+        android:icon="@drawable/heart"
+        tools:ignore="HardcodedText" />
+
+</menu>
